@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+<style>
+html {
+    overflow-y: scroll;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+        
+}
+body {
+    
+
+ }
+
+li {
+    list-style: none;
+}
+
+
+ #wrapper {
+    position: relative;
+    overflow-x: hidden;
+    border-bottom: 1px solid;
+ }
+
+ #header_wrapper {
+    background-color:  #43BA51;
+    border-bottom: 1px solid;
+
+    margin: 0;
+    padding: 0;
+    min-height: 48px;
+  }
+
+ #header_wrapper:before {
+    display: block;
+    overflow: hidden;
+  }
+  #header_wrapper:after {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+  }
+
+
+ #logo {
+    float: left;
+    margin-top: 3px;
+    width: 139px;
+    height: 33px;
+
+ }
+
+ #logo_image {
+    background-size: 139px 33px;
+    width: 139px;
+    height: 33px;
+ }
+
+#content {
+//  padding :20px 0 30px 0;
+}
+
+#header {
+    padding: 0;
+    width: 980px;
+}
+
+#header nav {
+    float: left;
+}
+
+#header nav li {
+    display: block;
+    padding: 16px 7px 18px 8px;
+    line-height: 1;
+}
+
+footer {
+    border-top: 1px solid;
+}
+#footer {
+    padding: 52px 0 10px 0;
+    
+}
+
+#footer h5 {
+    text-align:  center;
+}
+.section_wrapper {
+     padding: 40px 0 30px 0;
+     width: 980px;
+}
+
+#join {
+    background-image: url("/static/kha'zix.jpg") ;
+    background-size:  100% 150%;
+    background-repeat: no-repeat;
+    background-position: right top;
+   
+}
+
+#join h1 {
+    text-align:  center;
+    font-size: 60px;
+    margin-bottom:  45px;
+}
+
+#join h1 span {
+    background-color:  rgba(200, 216, 219, 0.25);
+    padding: 5px 10px;
+    color:  #aea;
+}
+
+
+
+#join #join_wrapper {
+
+width: 700px;
+height: 800px;
+}
+
+#join #join_form   {
+    margin: 0 auto;
+    padding: 30px 20px 30px 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0, 0.8);
+    background-color:  rgba(200, 216, 219, 0.7);
+}
+
+#join #join_form span {
+    position: relative;
+    display: inline-block;
+}
+
+#join #join_form span+span {
+    margin-left: 8px;
+}
+
+#join #join_form input[placeholder] {
+    font-size: 18px;
+    width: 276px;
+}
+
+
+#join_form #terms {
+    margin-top: 15px;
+}
+
+
+#usages {
+    background-color: rgb(33, 38, 33);
+}
+
+#usages h1 {
+  text-align:  center;
+    font-size: 48px;
+    font-weight:  bold;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom:  25px;
+}
+
+#usages_content {
+  margin: 0 auto;
+  width: 600px;
+}
+
+#usages_wrapper div {
+  text-align:  center;
+}
+
+#whitelogo {
+  width: 700px;
+}
+
+</style>
+
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header_wrapper">
+      <header class="container">
+        
+          <a id="logo" href="/">
+            <div id="logo_image"></div>
+          </a>
+
+           <div class="collapse navbar-collapse">
+           
+          </div>
+      </header>
+    </div>
+    <div id="content">
+      <section id="join" >
+        <div id="join_wrapper" class="container section_wrapper">
+        <!--
+        <h1> <span> Welcome To HeXA  </span> </h1>
+        
+        <img id="whitelogo" src="/static/whitelogo.png"/>
+        <pre>
+  2011년에 만들어진 UNIST의 컴퓨터 정보보안 동아리인 HeXA는 Hacker's eXciting Academy의 약자이며, 컴퓨터 보안에 대한 깊은 연구에 관심을 두고 있는 동아리 입니다. 
+  해킹이라는 말을 컴퓨터 자체로써도 받아들여 컴퓨터의 내부구조에 대한 깊은 공부를 하기도 하고 웹 분야에서의 친숙한 웹 해킹 또한 다루고 있습니다.
+  때로는, 학교내의 보안 취약점들을 찾아 학교에 보고하면서, 학교의 보안을 강화하기 위해 노력하고 있습니다.
+
+  게시판은 승인후 이용가능합니다.
+  가입후 이름과 아이디를 임원에게 알려주시면 승인해드리겠습니다.
+
+
+  연락처
+
+  문의 사항은 아래의 E-Mail로 보내 주세요. 
+
+  회장 한명균: hmg0228@unist.ac.kr 
+        </pre>
+        -->
+        </div>
+      </section>
+
+      <section id="usages">
+       <div id="usages_wrapper" class="container section_wrapper">
+         <h1> What is HeXA </h1>
+         <div>
+          <img src="/static/logo.png"/>
+
+         </div>
+       </div> 
+      </section>
+    </div>
+    <div id="footer_wrapper">
+      <footer>
+        <div id="container_footer">
+          <div id="footer" class="container clearfix">
+            <h5>Terms Privacy Developers © 2014 HeXA</h5>
+
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
