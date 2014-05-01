@@ -22,6 +22,6 @@ class User(models.Model):
 
     phone = models.CharField(max_length=12)
 
-    photo = models.ForeignKey(Photo, db_column='photo_id')
+    # photo = models.ForeignKey(Photo, db_column='photo_id')
     
 
