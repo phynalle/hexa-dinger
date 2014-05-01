@@ -8,9 +8,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'dinger.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-
-#    url(r'^/$', HomeView.as_view())
-	url(r'^intro/', include('intro.urls')),
+    url(r'^$', include('intro.urls')),
     url(r'^admin/', include(admin.site.urls)),
 
 )
